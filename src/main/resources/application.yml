@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local  # 默认激活本地环境
+  jackson:
+    default-property-inclusion: non_null
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
